@@ -1,29 +1,270 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Youssef Tazi | CS 499 ePortfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Youssef Tazi | CS 499 ePortfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f7f7;
+      color: #222;
+    }
+
+    header {
+      background-color: #1f3c88;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.2rem;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.05rem;
+    }
+
+    nav {
+      background-color: #163172;
+      padding: 12px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 12px;
+      font-weight: bold;
+      font-size: 0.95rem;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 30px auto;
+      background: white;
+      padding: 30px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    }
+
+    section {
+      margin-bottom: 50px;
+      scroll-margin-top: 80px;
+    }
+
+    h2 {
+      color: #1f3c88;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 8px;
+      margin-bottom: 20px;
+    }
+
+    h3 {
+      color: #163172;
+      margin-top: 25px;
+    }
+
+    ul {
+      margin-top: 8px;
+    }
+
+    .file-links a,
+    .video-link a {
+      display: inline-block;
+      margin: 8px 12px 8px 0;
+      color: #1f3c88;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .file-links a:hover,
+    .video-link a:hover {
+      text-decoration: underline;
+    }
+
+    .artifact-box {
+      background: #f3f6fb;
+      border-left: 5px solid #1f3c88;
+      padding: 15px;
+      margin: 15px 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #1f3c88;
+      color: white;
+      margin-top: 40px;
+    }
+
+    .small-note {
+      font-size: 0.95rem;
+      color: #555;
+    }
+  </style>
 </head>
 <body>
+  <header>
     <h1>Youssef Tazi</h1>
-    <h2>CS 499 ePortfolio</h2>
+    <p>CS 499 ePortfolio | Computer Science Capstone</p>
+  </header>
 
-    <p>Welcome to my computer science ePortfolio.</p>
-    <p>This site includes my selected artifact, planned enhancements, code review, narratives, and professional self-assessment for CS 499.</p>
+  <nav>
+    <a href="#self-assessment">Professional Self-Assessment</a>
+    <a href="#code-review">Code Review</a>
+    <a href="#original-artifact">Original Artifact</a>
+    <a href="#enhancement-one">Enhancement One</a>
+    <a href="#enhancement-two">Enhancement Two</a>
+    <a href="#enhancement-three">Enhancement Three</a>
+  </nav>
 
-    <h3>Selected Artifact</h3>
-    <p><strong>Project:</strong> Grazioso Salvare Rescue Animal System</p>
-    <p><strong>Course:</strong> IT-145 Foundations in Application Development</p>
+  <main>
+    <section id="self-assessment">
+      <h2>Professional Self-Assessment</h2>
 
-    <h3>Planned Enhancement Areas</h3>
-    <ul>
-        <li>Software Design and Engineering</li>
-        <li>Algorithms and Data Structures</li>
-        <li>Databases</li>
-    </ul>
+      <p>
+        Throughout my time in the computer science program, I have developed knowledge and skills in software design and engineering, algorithms and data structures, databases, programming, and problem solving. Through my courses, I learned how to write code, improve programs that already exist, test my work, and think carefully about how software should be designed. This ePortfolio reflects the progress I have made in these areas and shows the skills I developed while completing my coursework. It also shows my growth as a student and how my work in the program has prepared me for a career in software engineering.
+      </p>
 
-    <h3>Enhancement Summary</h3>
-    <p>I plan to improve this project by making the code more modular, improving data handling and search efficiency, and adding database functionality to support persistent storage.</p>
+      <p>
+        The artifact I selected for my capstone is the IT 145 Project Two artifact, Grazioso Salvare Rescue Animal System. I chose this artifact because it gave me a strong starting point to show growth in multiple areas of computer science. The original project was a Java console application created to manage rescue animals by allowing users to intake dogs and monkeys, reserve animals, and print lists of animals. Although the original artifact already included object-oriented programming concepts, it also gave me many opportunities to improve the design, organization, efficiency, and long-term usefulness of the program. By making three different enhancements to this artifact, I was able to demonstrate software design and engineering skills, algorithms and data structures skills, and database skills within one connected project.
+      </p>
+
+      <p>
+        An important area of growth in this program has been my ability to develop and improve software solutions using proper design practices. In my software design and engineering enhancement, I improved the structure of the original program by refactoring repeated code into helper methods, improving menu handling, and making input validation stronger. These improvements made the code easier to read and to maintain, and more reliable for the user. This enhancement helped me show that I can evaluate an existing program, identify weaknesses in its design, and improve it in a way that leads to better software quality. It also showed my understanding of modularity, readability, maintainability, and design that meets user needs.
+      </p>
+
+      <p>
+        Another major area of growth has been my understanding of algorithms and data structures. For my second enhancement, I improved how the program stores and processes rescue animal data by adding a shared data structure and creating helper methods for searching, filtering, and sorting animal records. These changes made the program more organized and reduced repeated logic. It also improved how data could be managed across the system. This enhancement helped me show that I understand how data structures affect the efficiency and design of a program and how algorithms can improve the way a program handles information. It also helped me see more clearly that choosing the right structure for storing and processing data can make software more scalable and easier to improve in the future.
+      </p>
+
+      <p>
+        The third enhancement gave me the opportunity to show my knowledge of databases and permanent data storage. In the original artifact, animal records remained available only while the program was running. When the program closed, the data was no longer saved. For my database enhancement, I added database functionality so animal records could be stored permanently and updated in a more reliable way. I created a database helper class that allowed the Java program to connect to the database, retrieve saved animal records, and update reservation data. This enhancement made the artifact more realistic and useful because it now supports permanent storage rather than temporary in-memory lists only. Through this enhancement, I showed that I understand how integrating a database can improve a program by making data storage more reliable, better organized, and available over time.
+      </p>
+
+      <p>
+        I further improved this database enhancement by adding a delete function that allows the user to remove animal records from permanent storage. To support this change, I added a new menu option in Driver.java, created logic that asks the user for the animal type and name, and added a deleteAnimal() method in DatabaseHelper.java to remove the record from the correct database table. This improvement made the artifact stronger by adding another important database operation and giving the user more control over stored data.
+      </p>
+
+      <p>
+        Through completing these enhancements, I also improved my ability to explain technical information to different audiences. This can be seen through my code review, my milestone narratives, and how I explain the purpose and value of each enhancement. In computer science, writing working code alone is not enough. It is also important to clearly explain design choices, justify improvements, and describe the impact of technical choices in a professional way. This ePortfolio allowed me to practice presenting my work in a way that is clear, organized, and connected to the skills and goals developed in the computer science program.
+      </p>
+
+      <p>
+        My work in this capstone also shows my growth in using tools and techniques that support the software development process. Throughout the program, I have gained experience with Java, object-oriented design, data structures, databases, and development tools that helped me in building and improving programs. In this project, I combined those skills together to analyze an existing artifact, plan meaningful enhancements, make changes, and reflect on the value of the work I completed. This process helped me clearly understand that software development is not only about writing code, but it also requires reviewing, improving, testing, and organizing software carefully.
+      </p>
+
+      <p>
+        I have also grown in my ability to think more carefully about reliability, usability, and security in software. Although this artifact is a simple rescue animal system, my enhancements still show that I understand the importance of input validation, accurate data handling, and stronger program structure. Strong input validation helps reduce errors and makes the program safer, more stable, and easier to work with. Good organization of data helps prevent logic problems and makes the system easier to manage. Adding database support also improves reliability by making sure important records are properly stored and updated correctly. These improvements show that good software development involves more than just making a program function. It also includes thinking about how the software works over time and how it can better meet user needs.
+      </p>
+
+      <p>
+        When I look back at my work in the program, I can see growth in both my technical ability and my professional development. When I first started the program, I was mostly concerned with making sure my code ran correctly. Over time, I learned that good software also depends on strong structure, efficient design, maintainability, and room for future improvement. This capstone gave me the opportunity to use these skills together in one project. It also helped me reflect on how much I have learned and how I can carry these skills into future academic or professional work.
+      </p>
+
+      <p>
+        Overall, this ePortfolio reflects my development as a computer science student and how that growth has prepared me for my software engineering career. Each part of this ePortfolio, including the code review, artifact, enhancements, narratives, and self-assessment, helps show the knowledge and skills I developed during the program. This project allowed me to demonstrate growth in software design and engineering, algorithms and data structures, databases, communication, and professional reflection. These experiences have prepared me to continue improving my skills and to contribute to software projects in a professional setting.
+      </p>
+    </section>
+
+    <section id="code-review">
+      <h2>Code Review</h2>
+      <p>
+        This section includes my Milestone One code review of the original IT 145 Project Two artifact, Grazioso Salvare Rescue Animal System. In this code review, I evaluated the structure and functionality of the original program and identified opportunities for improvement in software design and engineering, algorithms and data structures, and databases.
+      </p>
+      <div class="video-link">
+        <a href="PASTE_YOUR_CODE_REVIEW_VIDEO_LINK_HERE" target="_blank">View Code Review Video</a>
+      </div>
+      <p class="small-note">
+        Replace the placeholder above with your actual code review video link.
+      </p>
+    </section>
+
+    <section id="original-artifact">
+      <h2>Original Artifact</h2>
+      <p>
+        The original artifact for this capstone is IT 145 Project Two: Grazioso Salvare Rescue Animal System. This Java console application manages rescue animals by allowing the user to intake dogs and monkeys, reserve animals, and print lists of animals. The original artifact demonstrates object-oriented programming through the use of the Driver, RescueAnimal, Dog, and Monkey classes.
+      </p>
+
+      <div class="artifact-box">
+        <h3>Original Artifact Files</h3>
+        <div class="file-links">
+          <a href="files/original/Driver.java" target="_blank">Driver.java</a>
+          <a href="files/original/RescueAnimal.java" target="_blank">RescueAnimal.java</a>
+          <a href="files/original/Dog.java" target="_blank">Dog.java</a>
+          <a href="files/original/Monkey.java" target="_blank">Monkey.java</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="enhancement-one">
+      <h2>Enhancement One: Software Design and Engineering</h2>
+      <p>
+        In this enhancement, I improved the structure and organization of the original program by refactoring repeated code into helper methods, improving menu handling, and strengthening input validation. These changes made the program easier to read, easier to maintain, and more reliable for the user.
+      </p>
+
+      <div class="artifact-box">
+        <h3>Enhancement One Files</h3>
+        <div class="file-links">
+          <a href="files/enhancement-one/Driver.java" target="_blank">Driver.java</a>
+          <a href="files/enhancement-one/RescueAnimal.java" target="_blank">RescueAnimal.java</a>
+          <a href="files/enhancement-one/Dog.java" target="_blank">Dog.java</a>
+          <a href="files/enhancement-one/Monkey.java" target="_blank">Monkey.java</a>
+          <a href="files/enhancement-one/Enhancement-One-Narrative.docx" target="_blank">Enhancement One Narrative</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="enhancement-two">
+      <h2>Enhancement Two: Algorithms and Data Structures</h2>
+      <p>
+        In this enhancement, I improved how the program stores and processes animal data by adding a shared data structure and helper methods for searching, filtering, and sorting. These changes reduced repeated logic, improved organization, and made the program easier to scale and improve in the future.
+      </p>
+
+      <div class="artifact-box">
+        <h3>Enhancement Two Files</h3>
+        <div class="file-links">
+          <a href="files/enhancement-two/Driver.java" target="_blank">Driver.java</a>
+          <a href="files/enhancement-two/RescueAnimal.java" target="_blank">RescueAnimal.java</a>
+          <a href="files/enhancement-two/Dog.java" target="_blank">Dog.java</a>
+          <a href="files/enhancement-two/Monkey.java" target="_blank">Monkey.java</a>
+          <a href="files/enhancement-two/Enhancement-Two-Narrative.docx" target="_blank">Enhancement Two Narrative</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="enhancement-three">
+      <h2>Enhancement Three: Databases</h2>
+      <p>
+        In this enhancement, I added database functionality so animal records could be stored permanently and managed more reliably. I created a DatabaseHelper class, added SQLite database operations, loaded saved animal records into the program, updated reservation data through the database, and added a delete feature to remove animal records from permanent storage.
+      </p>
+
+      <div class="artifact-box">
+        <h3>Enhancement Three Files</h3>
+        <div class="file-links">
+          <a href="files/enhancement-three/Driver.java" target="_blank">Driver.java</a>
+          <a href="files/enhancement-three/RescueAnimal.java" target="_blank">RescueAnimal.java</a>
+          <a href="files/enhancement-three/Dog.java" target="_blank">Dog.java</a>
+          <a href="files/enhancement-three/Monkey.java" target="_blank">Monkey.java</a>
+          <a href="files/enhancement-three/DatabaseHelper.java" target="_blank">DatabaseHelper.java</a>
+          <a href="files/enhancement-three/Enhancement-Three-Narrative.docx" target="_blank">Enhancement Three Narrative</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Youssef Tazi | CS 499 Computer Science Capstone ePortfolio</p>
+  </footer>
 </body>
 </html>
